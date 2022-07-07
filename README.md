@@ -8,4 +8,8 @@ ejecucion:
 sudo su -
 /home/ahernandez/miniconda3/envs/dob-docreader/bin/python /home/ahernandez/monitor-python-process/main.py
 /home/ahernandez/miniconda3/envs/dob-docreader/bin/python /home/ahernandez/monitor-python-process/main.py --columns name,cpu_usage,memory_usage,status -n 20 --sort-by memory_usage --descending
+
+/home/ahernandez/miniconda3/envs/dob-docreader/bin/python /home/ahernandez/monitor-python-process/main.py --columns name,cpu_usage,memory_usage,read_bytes,write_bytes,status,create_time,nice,n_threads,cores -n 20 --sort-by memory_usage --descending
+
+
 ```
